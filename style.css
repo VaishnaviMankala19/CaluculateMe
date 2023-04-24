@@ -15,7 +15,7 @@
 .simplecalc,.temp,.bmi{
     height: 350px;
     width: 350px;
-    background-color: #C9A7EB;
+    background-color: rgba(201, 167, 235,0.6);
     border-radius: 10px;
     box-shadow: 2px 2px 2px black;
     display:flex;
@@ -34,12 +34,15 @@
 .bmi img,.simplecalc img,.temp img{
     width:80%;
     height: 200px;
-    margin-top: 45px;
-    margin-left: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 10px;}
+body{
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
 
 
 
