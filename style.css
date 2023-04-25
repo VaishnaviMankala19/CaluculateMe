@@ -11,6 +11,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .simplecalc,.temp,.bmi{
     height: 350px;
@@ -43,6 +44,23 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media  screen and (max-width:550px)
+ {
+    .container
+   {
+    width: 100%;
+   }
+
+   body{
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+   }
+   .simplecalc,.temp,.bmi
+   {
+    margin-top: 20px;
+   }
+ }
 
 
 

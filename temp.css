@@ -19,16 +19,21 @@ form{
     margin-top: 20px;
 }
 .container{
-    margin-top:200px;
-    padding-top: 30px;
-    background-color: rgba(255,255,255,0.4);
+    margin:auto;
+    padding-top: 40px;
+    background-color: rgba(255,255,255,0.6);
     height: 300px;
     width: 300px;
-    margin-left:500px;
     box-shadow: 2px 2px 2px black;
-   
 }
 body{
-    background-color:rgba(86, 157, 170,0.8);
-    opacity: 0.9;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url("https://img.freepik.com/premium-photo/thermometer-shows-temperature-is-heat-sky_33799-3650.jpg?w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
